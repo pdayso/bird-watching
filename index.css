@@ -1,0 +1,64 @@
+body {
+    background-image: url("images/nepal-2184940_640.jpg");
+    background-size: cover;
+    background-blend-mode:hard-light;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    min-height:100vh;
+    display:grid;
+    place-content:center;
+    font-size:1rem;
+}
+main{
+    padding:1rem;
+    background-color:#fff;
+    max-width:60rem;
+    /*min-height:100vh;*/
+    display:grid;
+    place-content:center;
+    border:4px solid black;
+    border-radius:.5rem;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h1, h2 {
+    /*text-shadow: 2px 2px 2px black;*/
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background:#000435;
+}
+
+#save-btn {
+    background: #fff;
+    color:#000435;
+    border:2px solid #000435;
+}
+#increment-btn, #save-btn{
+    margin-inline:auto;
+}
+
+#save-el{
+    font-weight:900;
+}
